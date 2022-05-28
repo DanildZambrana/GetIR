@@ -27,7 +27,6 @@ public class GetIR {
             ir = (anualSalary - 350000) * 0.25;
             ir += 45000;
         } else if(anualSalary > 200000) {
-            System.out.println(anualSalary - 200000);
             ir = (anualSalary - 200000) * 0.20;
             ir += 15000; 
         } else if(anualSalary > 100000) {
